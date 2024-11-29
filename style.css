@@ -1,0 +1,65 @@
+p.dotted
+{
+    border_style:dotted;
+}
+
+div{
+    border: 1px solid black;
+    margine: 25px 50px 75px 100px;
+    background-color: aqua;
+
+}
+
+div{
+    border: 1px solid black;
+    margin-top:100px;
+    margin-bottom: 100px;
+    margin-left: 80px;
+    margin-right: 150px;
+    background-color:blueviolet;
+}
+
+div{
+    width: 200px;
+    height: 2px;
+    border: 15px solid rgb(117, 0,128);
+    padding: 20px;
+    margin: 10px;
+
+}
+
+.static-box{
+    position:static;
+    width: 200px;
+    height: 100px;
+    background-color: lightblue;
+    top: 20px;
+    left:20px;
+}
+
+.parent{
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background-color: lightcoral;
+
+}
+.absolute-box{
+    position: absolute;
+    width: 150px;
+    height: 100px;
+    background-color: aquamarine;
+    top:50px;
+    left:50px;
+}
+
+.fixed-box{
+    position: fixed;
+    width: 150px;
+    height: 100px;
+    background-color: aquamarine;
+
+}
+p{
+    font-size: 200px;
+}
